@@ -14,11 +14,9 @@ root.render(
     <div className="wrapper">
       <Offers />
       <Explore />
-      <Property/>
+      <Property />
     </div>
-    <br />
-    <br />
-    <br />
+    <br /> <br /><br /><br /><br /><br />
   </React.StrictMode>
 );
 
