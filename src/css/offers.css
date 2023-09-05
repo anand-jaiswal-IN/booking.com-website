@@ -1,0 +1,12 @@
+.offers-container > div {
+  box-shadow: 0px 0px 15px 5px #ebebeb;
+  overflow: hidden;
+}
+.offers-container > div > div {
+  width: 50%;
+}
+.offers-container img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
