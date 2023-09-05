@@ -1,4 +1,4 @@
-import './css/explore.css';
+import '../css/explore.css';
 
 function Explore() {
   return (

@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
-import Header from "./header";
-import Offers from "./offers";
-import Explore from "./explore";
+import Header from "./JSX/header";
+import Offers from "./JSX/offers";
+import Explore from "./JSX/explore";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
