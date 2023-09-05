@@ -5,6 +5,7 @@ import "./index.css";
 import Header from "./JSX/header";
 import Offers from "./JSX/offers";
 import Explore from "./JSX/explore";
+import Property from "./JSX/property";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,7 +14,11 @@ root.render(
     <div className="wrapper">
       <Offers />
       <Explore />
+      <Property/>
     </div>
+    <br />
+    <br />
+    <br />
   </React.StrictMode>
 );
 
