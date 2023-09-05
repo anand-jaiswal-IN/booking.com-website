@@ -1,8 +1,8 @@
 function ItemProperty(props) {
     return (
         <div className="w-[25%] shadow-lg cursor-pointer hover:shadow-2xl p-2 pl-0 rounded-lg">
-            <div className="overflow-hidden">
-                <img src={props.property.imgUrl} alt="" className="hover:scale-110 transition-all" />
+            <div className="overflow-hidden h-[200px]">
+                <img src={props.property.imgUrl} alt="" className="hover:scale-110 transition-all object-cover width-[100%] h-[100%] m-auto" />
             </div>
             <div className="p-2">
                 <h2 className="font-bold text-black">{props.property.hotelName}</h2>
