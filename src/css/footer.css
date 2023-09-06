@@ -1,0 +1,27 @@
+.footer-social-media-menu > ul > li {
+  display: inline;
+  color: white;
+}
+.footer-social-media-menu > ul > li > a {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  transition: 0.2s all ease-in-out;
+}
+.footer-social-media-menu > ul > li > a:hover {
+  border-radius: 50%;
+  background-color: rgb(73, 48, 211);
+}
+.footer-menu > ul > li:first-child {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.footer-menu > ul > li > a {
+  display: inline-block;
+  padding: 5px 0;
+}
+footer a:hover {
+  color: #fff;
+}
