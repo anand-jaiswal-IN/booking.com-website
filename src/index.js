@@ -6,6 +6,7 @@ import Header from "./JSX/header";
 import Offers from "./JSX/offers";
 import Explore from "./JSX/explore";
 import Property from "./JSX/property";
+import Destination from "./JSX/destination";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
       <Offers />
       <Explore />
       <Property />
+      <Destination/>
     </div>
     <br /> <br /><br /><br /><br /><br />
   </React.StrictMode>
