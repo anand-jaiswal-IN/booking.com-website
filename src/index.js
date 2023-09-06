@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
-    <div className="wrapper">
+    <div className="md:px-20 px-4">
       <Offers />
       <Explore />
       <Property />

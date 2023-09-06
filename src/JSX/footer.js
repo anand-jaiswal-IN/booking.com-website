@@ -77,7 +77,7 @@ function Footer() {
                 </div>
 
                 <div>
-                    <p className='uppercase text-[10px] font-bold border-[1px] border-blue-300 inline-block px-3 py-1 rounded-lg'>All systems operational</p>
+                    <p className='uppercase text-[10px] font-bold border-[1px] border-blue-300 inline-block px-3 py-1 rounded-lg'>Made by anand jaiswal</p>
                 </div>
             </div>
         </footer>

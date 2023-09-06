@@ -1,6 +1,6 @@
 function ItemProperty(props) {
   return (
-    <div className="w-[25%] shadow-lg cursor-pointer hover:shadow-2xl absolute top-0 h-[100%] px-1">
+    <div className="md:w-[25%] w-[50%] shadow-lg cursor-pointer hover:shadow-2xl absolute top-0 h-[100%] px-1">
       <div className="overflow-hidden h-[200px]">
         <img
           src={props.property.imgUrl}
@@ -121,7 +121,7 @@ function Property() {
         <p>From castles and villas to boats and igloos, we've got it all</p>
 
         <div className="property-container mt-5 relative overflow-hidden">
-          <div className="property-container-wrapper relative h-[420px] transition-transform">
+          <div className="property-container-wrapper relative md:h-[450px] h-[500px] transition-transform">
             {properties.map((property, index) => (
               <ItemProperty property={property} index={index} />
             ))}

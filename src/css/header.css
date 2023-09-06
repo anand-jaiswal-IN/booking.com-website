@@ -1,15 +1,9 @@
 header {
-  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8)), url('https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),
+    url("https://images.pexels.com/photos/36487/above-adventure-aerial-air.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
   background-size: cover;
   background-position: center;
   color: white;
-}
-.header-wrapper {
-  padding: 0 5rem;
-  position: relative;
-}
-.wrapper {
-  padding: 0 5rem;
 }
 nav {
   height: 4rem;
@@ -48,35 +42,4 @@ nav {
 }
 .sub-nav > ul > li > a:hover {
   background-color: #ffffff3f;
-}
-.booking-form {
-  position: absolute;
-  bottom: -100px;
-  padding: 0 5rem;
-  left: 0;
-}
-.main-booking-form {
-  background-color: orange;
-  border-radius: 0.5rem;
-  color: #000;
-  display: flex;
-  padding: 0.5rem;
-  justify-content: center;
-}
-.main-booking-form > input {
-  width: 100%;
-  margin-right: 0.5rem;
-  background-color: #fff;
-  padding: 0.5rem 1.5rem;
-  font-size: 0.8rem;
-}
-.main-booking-form > input:focus {
-  outline: none;
-  border: none;
-}
-.main-booking-form > button[type="submit"] {
-  background-color: rgb(39, 39, 207);
-  color: #fff;
-  padding: 0.5rem 1.5rem;
-  border-radius: 0.25rem;
 }
