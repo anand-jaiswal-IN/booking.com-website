@@ -2,26 +2,12 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import "./index.css";
-import Header from "./JSX/header";
-import Offers from "./JSX/offers";
-import Explore from "./JSX/explore";
-import Property from "./JSX/property";
-import Destination from "./JSX/destination";
-import Subscribe from "./JSX/subscribe";
-import Footer from "./JSX/footer";
+import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
-    <div className="wrapper">
-      <Offers />
-      <Explore />
-      <Property />
-      <Destination/>
-    </div>
-    <Subscribe/>
-    <Footer/>
+    <App />
   </React.StrictMode>
 );
 
